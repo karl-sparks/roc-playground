@@ -7,12 +7,16 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"IvanDemchenko.roc-lang-unofficial"
+				"IvanDemchenko.roc-lang-unofficial",
+				"usernamehw.errorlens"
 			]
 		}
-	}
+	},
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/nils-geistmann/devcontainers-features/exercism:0": {}
+	}
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
